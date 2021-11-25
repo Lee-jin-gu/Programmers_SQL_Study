@@ -1,2 +1,1 @@
-SELECT name from (
-    select * from animal_ins order by datetime) where rownum <=1
+SELECT NAME from ANIMAL_INS where DATETIME = (select min(DATETIME) from ANIMAL_INS);
