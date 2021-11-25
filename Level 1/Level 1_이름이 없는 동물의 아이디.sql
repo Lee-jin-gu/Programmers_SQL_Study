@@ -1,0 +1,1 @@
+SELECT Animal_Id from ANIMAL_INS where name is null order by animal_id asc
