@@ -1,0 +1,1 @@
+SELECT count(datetime) from animal_ins
